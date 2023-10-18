@@ -1,11 +1,6 @@
-local S
-if minetest.get_modpath("intllib") then
-    S = (intllib.make_gettext_pair and intllib.make_gettext_pair()) or intllib.Getter()
-else
-    S = function(s) return s end
-end
-
 local mod_name = "classic_coaches_generic_livery_pack"
+
+local S = minetest.get_translator(mod_name)
 
 local default_seat_alpha = 245
 local default_wall_alpha = 253
@@ -337,7 +332,7 @@ local predefined_liveries = {
 		name = S("Generic - Ocean View"),
 		notes = "",
 		livery_design = {
-			livery_template_name = "Generic - Double Bands and Stripe",
+			livery_template_name = S("Generic - Double Bands and Stripe"),
 			overlays = {
 				[1] = {id = 1,	color = "#000040"},	-- "Upper Trim",	
 				[2] = {id = 2,	color = "#87CEEB"},	-- "Window Band",			
@@ -352,7 +347,7 @@ local predefined_liveries = {
 		name = S("Generic - Desert Flyer"),
 		notes = "",
 		livery_design = {
-			livery_template_name = "Generic - Double Bands and Stripe",
+			livery_template_name = S("Generic - Double Bands and Stripe"),
 			overlays = {
 				[1] = {id = 1,	color = "#F5DEB3"},	-- "Upper Trim",	
 				[2] = {id = 2,	color = "#DAA520"},	-- "Window Band",			
@@ -367,7 +362,7 @@ local predefined_liveries = {
 		name = S("Generic - Woodland Safari"),
 		notes = "",
 		livery_design = {
-			livery_template_name = "Generic - Double Bands and Stripe",
+			livery_template_name = S("Generic - Double Bands and Stripe"),
 			overlays = {
 				[1] = {id = 1,	color = "#003200"},	-- "Upper Trim",	
 				[2] = {id = 2,	color = "#006400"},	-- "Window Band",			
@@ -382,7 +377,7 @@ local predefined_liveries = {
 		name = S("Generic - Artic Dawn"),
 		notes = "",
 		livery_design = {
-			livery_template_name = "Generic - Window Band and Stripe",
+			livery_template_name = S("Generic - Window Band and Stripe"),
 			overlays = {
 				[1] = {id = 1,	color = "#C0C0C0"},	-- "Upper Side Walls",	
 				[2] = {id = 2,	color = "#C0C0C0"},	-- "Lower Side Walls",			
@@ -397,7 +392,7 @@ local predefined_liveries = {
 		name = S("Generic - Savanna Zepher"),
 		notes = "",
 		livery_design = {
-			livery_template_name = "Generic - Window Band and Stripe",
+			livery_template_name = S("Generic - Window Band and Stripe"),
 			overlays = {
 				[1] = {id = 1,	color = "#F5DEB3"},	-- "Upper Side Walls",	
 				[2] = {id = 2,	color = "#D2B48C"},	-- "Lower Side Walls",			
@@ -412,7 +407,7 @@ local predefined_liveries = {
 		name = S("Generic - Autum Sunrise"),
 		notes = "",
 		livery_design = {
-			livery_template_name = "Generic - Window Stripes",
+			livery_template_name = S("Generic - Window Stripes"),
 			overlays = {
 				[1] = {id = 1,	color = "#D2691E"},	-- "Side Walls",	
 				[2] = {id = 2,	color = "#D2B48C"},	-- "Upper Stripe",			
