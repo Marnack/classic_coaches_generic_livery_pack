@@ -334,12 +334,12 @@ local predefined_liveries = {
 		livery_design = {
 			livery_template_name = S("Generic - Double Bands and Stripe"),
 			overlays = {
-				[1] = {id = 1,	color = "#000040"},	-- "Upper Trim",	
-				[2] = {id = 2,	color = "#87CEEB"},	-- "Window Band",			
-				[3] = {id = 3,	color = "#4682B4"},	-- "Middle Stripe",	
-				[4] = {id = 4,	color = "#4682B4"},	-- "Lower Band",		
-				[5] = {id = 5,	color = "#000040"},	-- "Lower Trim",	
---				[6] = {id = 6,	color = "#000000"},	-- "Class Number",	
+				[1] = {id = 1,	color = "#000040"},	-- "Upper Trim"
+				[2] = {id = 2,	color = "#87CEEB"},	-- "Window Band"
+				[3] = {id = 3,	color = "#4682B4"},	-- "Middle Stripe"
+				[4] = {id = 4,	color = "#4682B4"},	-- "Lower Band"
+				[5] = {id = 5,	color = "#000040"},	-- "Lower Trim"
+--				[6] = {id = 6,	color = "#000000"},	-- "Class Number"
 			},
 		},
 	},
@@ -349,12 +349,12 @@ local predefined_liveries = {
 		livery_design = {
 			livery_template_name = S("Generic - Double Bands and Stripe"),
 			overlays = {
-				[1] = {id = 1,	color = "#F5DEB3"},	-- "Upper Trim",	
-				[2] = {id = 2,	color = "#DAA520"},	-- "Window Band",			
-				[3] = {id = 3,	color = "#F5DEB3"},	-- "Middle Stripe",	
-				[4] = {id = 4,	color = "#F5DEB3"},	-- "Lower Band",		
-				[5] = {id = 5,	color = "#DAA520"},	-- "Lower Trim",	
-				[6] = {id = 6,	color = "#F5DEB3"},	-- "Class Number",	
+				[1] = {id = 1,	color = "#F5DEB3"},	-- "Upper Trim"
+				[2] = {id = 2,	color = "#DAA520"},	-- "Window Band"
+				[3] = {id = 3,	color = "#F5DEB3"},	-- "Middle Stripe"
+				[4] = {id = 4,	color = "#F5DEB3"},	-- "Lower Band"
+				[5] = {id = 5,	color = "#DAA520"},	-- "Lower Trim"
+				[6] = {id = 6,	color = "#F5DEB3"},	-- "Class Number"
 			},
 		},
 	},
@@ -364,12 +364,12 @@ local predefined_liveries = {
 		livery_design = {
 			livery_template_name = S("Generic - Double Bands and Stripe"),
 			overlays = {
-				[1] = {id = 1,	color = "#003200"},	-- "Upper Trim",	
-				[2] = {id = 2,	color = "#006400"},	-- "Window Band",			
-				[3] = {id = 3,	color = "#7EA24E"},	-- "Middle Stripe",	
-				[4] = {id = 4,	color = "#006400"},	-- "Lower Band",		
-				[5] = {id = 5,	color = "#003200"},	-- "Lower Trim",	
-				[6] = {id = 6,	color = "#7EA24E"},	-- "Class Number",	
+				[1] = {id = 1,	color = "#003200"},	-- "Upper Trim"
+				[2] = {id = 2,	color = "#006400"},	-- "Window Band"
+				[3] = {id = 3,	color = "#7EA24E"},	-- "Middle Stripe"
+				[4] = {id = 4,	color = "#006400"},	-- "Lower Band"
+				[5] = {id = 5,	color = "#003200"},	-- "Lower Trim"
+				[6] = {id = 6,	color = "#7EA24E"},	-- "Class Number"
 			},
 		},
 	},
@@ -379,12 +379,12 @@ local predefined_liveries = {
 		livery_design = {
 			livery_template_name = S("Generic - Window Band and Stripe"),
 			overlays = {
-				[1] = {id = 1,	color = "#C0C0C0"},	-- "Upper Side Walls",	
-				[2] = {id = 2,	color = "#C0C0C0"},	-- "Lower Side Walls",			
-				[3] = {id = 3,	color = "#800000"},	-- "Window Band",	
-				[4] = {id = 4,	color = "#323232"},	-- "Stripe",		
-				[5] = {id = 5,	color = "#C0C0C0"},	-- "Side Doors",	
-				[6] = {id = 6,	color = "#C0C0C0"},	-- "Class Number",	
+				[1] = {id = 1,	color = "#C0C0C0"},	-- "Upper Side Walls"
+				[2] = {id = 2,	color = "#C0C0C0"},	-- "Lower Side Walls"
+				[3] = {id = 3,	color = "#800000"},	-- "Window Band"
+				[4] = {id = 4,	color = "#323232"},	-- "Stripe"
+				[5] = {id = 5,	color = "#C0C0C0"},	-- "Side Doors"
+				[6] = {id = 6,	color = "#C0C0C0"},	-- "Class Number"
 			},
 		},
 	},
@@ -394,12 +394,12 @@ local predefined_liveries = {
 		livery_design = {
 			livery_template_name = S("Generic - Window Band and Stripe"),
 			overlays = {
-				[1] = {id = 1,	color = "#F5DEB3"},	-- "Upper Side Walls",	
-				[2] = {id = 2,	color = "#D2B48C"},	-- "Lower Side Walls",			
-				[3] = {id = 3,	color = "#DAA520"},	-- "Window Band",	
-				[4] = {id = 4,	color = "#006400"},	-- "Stripe",		
---				[5] = {id = 5,	color = "#000000"},	-- "Side Doors",	
---				[6] = {id = 6,	color = "#000000"},	-- "Class Number",	
+				[1] = {id = 1,	color = "#F5DEB3"},	-- "Upper Side Walls"
+				[2] = {id = 2,	color = "#D2B48C"},	-- "Lower Side Walls"
+				[3] = {id = 3,	color = "#DAA520"},	-- "Window Band"
+				[4] = {id = 4,	color = "#006400"},	-- "Stripe"
+--				[5] = {id = 5,	color = "#000000"},	-- "Side Doors"
+--				[6] = {id = 6,	color = "#000000"},	-- "Class Number"
 			},
 		},
 	},
@@ -409,12 +409,12 @@ local predefined_liveries = {
 		livery_design = {
 			livery_template_name = S("Generic - Window Stripes"),
 			overlays = {
-				[1] = {id = 1,	color = "#D2691E"},	-- "Side Walls",	
-				[2] = {id = 2,	color = "#D2B48C"},	-- "Upper Stripe",			
-				[3] = {id = 3,	color = "#4B4B4B"},	-- "Window Band",	
-				[4] = {id = 4,	color = "#D2B48C"},	-- "Middle Stripe",		
-				[5] = {id = 5,	color = "#DAA520"},	-- "Lower Stripe",	
---				[6] = {id = 6,	color = "#000000"},	-- "Class Number",	
+				[1] = {id = 1,	color = "#D2691E"},	-- "Side Walls"
+				[2] = {id = 2,	color = "#D2B48C"},	-- "Upper Stripe"
+				[3] = {id = 3,	color = "#4B4B4B"},	-- "Window Band"
+				[4] = {id = 4,	color = "#D2B48C"},	-- "Middle Stripe"
+				[5] = {id = 5,	color = "#DAA520"},	-- "Lower Stripe"
+--				[6] = {id = 6,	color = "#000000"},	-- "Class Number"
 			},
 		},
 	},}
