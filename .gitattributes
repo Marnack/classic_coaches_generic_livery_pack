@@ -6,6 +6,7 @@
 *.md text
 *.mod text
 *.txt text
+*.json text
 
 # Files that should always be text and use CRLF line endings
 *.bat text eol=crlf
@@ -15,3 +16,6 @@
 *.ogg binary
 *.png binary
 *.jpg binary
+
+# Files to exclude from release packaging
+.* export-ignore
