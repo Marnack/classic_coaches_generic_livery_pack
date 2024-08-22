@@ -22,6 +22,8 @@ local livery_template_names = {
 	 [5] =	{name = S("Generic - Double Bands and Stripe"),	notes = "This livery features color trim along the top and bottom of the sides, a window band, a wide band along the bottom half of the sides and a stripe separating the upper and lower halves of the sides."},
 	 [6] =	{name = S("Generic - Window Band and Stripe"),	notes = "This livery features independent colors for the upper and lower halves of the sides, a window band and a narrow stripe near the middle."},
 	 [7] =	{name = S("Generic - Window Stripes"),			notes = "In addition to a window band, the livery features a narrow strips above the windows and two adjacent stripes just below the windows."},
+	 [8] =	{name = S("Generic - Arrows and Rail"),			notes = "This livery features stylized arrow heads and a section of train track on the lower half of the wagon's sides"},
+	 [9] =	{name = S("Generic - Arrows and Line"),			notes = "This livery features decorative arrows and lines on the lower half of the wagon's sides"},
 }
 
 local livery_templates = {
@@ -99,6 +101,27 @@ local livery_templates = {
 				[6] = {name = S("Class Number"),		texture = "classic_coaches_overlay_class1_class_number.png"},
 			},
 		},
+		[8] = {
+			base_texture = mod_name.."_corridor_coach_class1_008.png",
+			overlays = {
+				[1] = {name = S("Side Walls"),			texture = mod_name.."_overlay_008_side_walls.png",					alpha = default_wall_alpha},
+				[2] = {name = S("Decoration Arrows"),	texture = mod_name.."_overlay_008_decoration_arrows.png",			alpha = default_wall_alpha},
+				[3] = {name = S("Track Rails"),			texture = mod_name.."_overlay_008_track_rails.png",					alpha = default_wall_alpha},
+				[4] = {name = S("Track Ties"),			texture = mod_name.."_overlay_008_track_ties.png",					alpha = default_wall_alpha},
+				[5] = {name = S("Class Number"),		texture = "classic_coaches_overlay_class1_class_number.png"},
+				[6] = {name = S("Window Band"),			texture = mod_name.."_overlay_008_class1_window_band.png",			alpha = default_wall_alpha},
+			},
+		},
+		[9] = {
+			base_texture = mod_name.."_corridor_coach_class1_009.png",
+			overlays = {
+				[1] = {name = S("Side Walls"),			texture = mod_name.."_overlay_009_class1_side_walls.png",			alpha = default_wall_alpha},
+				[2] = {name = S("Decoration Arrows"),	texture = mod_name.."_overlay_009_decoration_arrows.png",			alpha = default_wall_alpha},
+				[3] = {name = S("Decoration Line"),		texture = mod_name.."_overlay_009_decoration_line.png",				alpha = default_wall_alpha},
+				[4] = {name = S("Trim"),				texture = mod_name.."_overlay_009_trim.png",						alpha = default_wall_alpha},
+				[5] = {name = S("Class Number"),		texture = "classic_coaches_overlay_class1_class_number.png"},
+			},
+		},
 	},
 	["classic_coaches:corridor_coach_class2"] = {
 		[1] = {
@@ -172,6 +195,27 @@ local livery_templates = {
 				[4] = {name = S("Middle Stripe"),		texture = mod_name.."_overlay_007_middle_stripe.png",				alpha = default_wall_alpha},
 				[5] = {name = S("Lower Stripe"),		texture = mod_name.."_overlay_007_lower_stripe.png",				alpha = default_wall_alpha},
 				[6] = {name = S("Class Number"),		texture = "classic_coaches_overlay_class2_class_number.png"},
+			},
+		},
+		[8] = {
+			base_texture = mod_name.."_corridor_coach_class2_008.png",
+			overlays = {
+				[1] = {name = S("Side Walls"),			texture = mod_name.."_overlay_008_side_walls.png",					alpha = default_wall_alpha},
+				[2] = {name = S("Decoration Arrows"),	texture = mod_name.."_overlay_008_decoration_arrows.png",			alpha = default_wall_alpha},
+				[3] = {name = S("Track Rails"),			texture = mod_name.."_overlay_008_track_rails.png",					alpha = default_wall_alpha},
+				[4] = {name = S("Track Ties"),			texture = mod_name.."_overlay_008_track_ties.png",					alpha = default_wall_alpha},
+				[5] = {name = S("Class Number"),		texture = "classic_coaches_overlay_class2_class_number.png"},
+				[6] = {name = S("Window Band"),			texture = mod_name.."_overlay_008_class2_window_band.png",			alpha = default_wall_alpha},
+			},
+		},
+		[9] = {
+			base_texture = mod_name.."_corridor_coach_class2_009.png",
+			overlays = {
+				[1] = {name = S("Side Walls"),			texture = mod_name.."_overlay_009_class2_side_walls.png",			alpha = default_wall_alpha},
+				[2] = {name = S("Decoration Arrows"),	texture = mod_name.."_overlay_009_decoration_arrows.png",			alpha = default_wall_alpha},
+				[3] = {name = S("Decoration Line"),		texture = mod_name.."_overlay_009_decoration_line.png",				alpha = default_wall_alpha},
+				[4] = {name = S("Trim"),				texture = mod_name.."_overlay_009_trim.png",						alpha = default_wall_alpha},
+				[5] = {name = S("Class Number"),		texture = "classic_coaches_overlay_class2_class_number.png"},
 			},
 		},
 	},
@@ -249,6 +293,27 @@ local livery_templates = {
 				[6] = {name = S("Class Number"),		texture = "classic_coaches_overlay_class1_class_number.png"},
 			},
 		},
+		[8] = {
+			base_texture = mod_name.."_open_coach_class1_008.png",
+			overlays = {
+				[1] = {name = S("Side Walls"),			texture = mod_name.."_overlay_008_side_walls.png",					alpha = default_wall_alpha},
+				[2] = {name = S("Decoration Arrows"),	texture = mod_name.."_overlay_008_decoration_arrows.png",			alpha = default_wall_alpha},
+				[3] = {name = S("Track Rails"),			texture = mod_name.."_overlay_008_track_rails.png",					alpha = default_wall_alpha},
+				[4] = {name = S("Track Ties"),			texture = mod_name.."_overlay_008_track_ties.png",					alpha = default_wall_alpha},
+				[5] = {name = S("Class Number"),		texture = "classic_coaches_overlay_class1_class_number.png"},
+				[6] = {name = S("Window Band"),			texture = mod_name.."_overlay_008_class1_window_band.png",			alpha = default_wall_alpha},
+			},
+		},
+		[9] = {
+			base_texture = mod_name.."_open_coach_class1_009.png",
+			overlays = {
+				[1] = {name = S("Side Walls"),			texture = mod_name.."_overlay_009_class1_side_walls.png",			alpha = default_wall_alpha},
+				[2] = {name = S("Decoration Arrows"),	texture = mod_name.."_overlay_009_decoration_arrows.png",			alpha = default_wall_alpha},
+				[3] = {name = S("Decoration Line"),		texture = mod_name.."_overlay_009_decoration_line.png",				alpha = default_wall_alpha},
+				[4] = {name = S("Trim"),				texture = mod_name.."_overlay_009_trim.png",						alpha = default_wall_alpha},
+				[5] = {name = S("Class Number"),		texture = "classic_coaches_overlay_class1_class_number.png"},
+			},
+		},
 	},
 	["classic_coaches:open_coach_class2"] = {
 		[1] = {
@@ -322,6 +387,27 @@ local livery_templates = {
 				[4] = {name = S("Middle Stripe"),		texture = mod_name.."_overlay_007_middle_stripe.png",				alpha = default_wall_alpha},
 				[5] = {name = S("Lower Stripe"),		texture = mod_name.."_overlay_007_lower_stripe.png",				alpha = default_wall_alpha},
 				[6] = {name = S("Class Number"),		texture = "classic_coaches_overlay_class2_class_number.png"},
+			},
+		},
+		[8] = {
+			base_texture = mod_name.."_open_coach_class2_008.png",
+			overlays = {
+				[1] = {name = S("Side Walls"),			texture = mod_name.."_overlay_008_side_walls.png",					alpha = default_wall_alpha},
+				[2] = {name = S("Decoration Arrows"),	texture = mod_name.."_overlay_008_decoration_arrows.png",			alpha = default_wall_alpha},
+				[3] = {name = S("Track Rails"),			texture = mod_name.."_overlay_008_track_rails.png",					alpha = default_wall_alpha},
+				[4] = {name = S("Track Ties"),			texture = mod_name.."_overlay_008_track_ties.png",					alpha = default_wall_alpha},
+				[5] = {name = S("Class Number"),		texture = "classic_coaches_overlay_class2_class_number.png"},
+				[6] = {name = S("Window Band"),			texture = mod_name.."_overlay_008_class2_window_band.png",			alpha = default_wall_alpha},
+			},
+		},
+		[9] = {
+			base_texture = mod_name.."_open_coach_class2_009.png",
+			overlays = {
+				[1] = {name = S("Side Walls"),			texture = mod_name.."_overlay_009_class2_side_walls.png",			alpha = default_wall_alpha},
+				[2] = {name = S("Decoration Arrows"),	texture = mod_name.."_overlay_009_decoration_arrows.png",			alpha = default_wall_alpha},
+				[3] = {name = S("Decoration Line"),		texture = mod_name.."_overlay_009_decoration_line.png",				alpha = default_wall_alpha},
+				[4] = {name = S("Trim"),				texture = mod_name.."_overlay_009_trim.png",						alpha = default_wall_alpha},
+				[5] = {name = S("Class Number"),		texture = "classic_coaches_overlay_class2_class_number.png"},
 			},
 		},
 	},
@@ -417,12 +503,57 @@ local predefined_liveries = {
 --				[6] = {id = 6,	color = "#000000"},	-- "Class Number"
 			},
 		},
-	},}
+	},
+	{
+		name = S("Generic - Frontier Sunbeam"),
+		notes = "",
+		livery_design = {
+			livery_template_name = S("Generic - Arrows and Rail"),
+			overlays = {
+				[1] = {id = 1,	color = "#FFD700"},	-- "Side Walls"
+				[2] = {id = 2,	color = "#006400"},	-- "Decoration Arrows"
+				[3] = {id = 3,	color = "#006400"},	-- "Track Rails"
+				[4] = {id = 4,	color = "#FFD700"},	-- "Track Ties"
+--				[5] = {id = 5,	color = "#000000"},	-- "Class Number"
+--				[6] = {id = 6,	color = "#000000"},	-- "Window Band"
+			},
+		},
+	},
+	{
+		name = S("Generic - Midnight Rambler"),
+		notes = "",
+		livery_design = {
+			livery_template_name = S("Generic - Arrows and Rail"),
+			overlays = {
+				[1] = {id = 1,	color = "#141414"},	-- "Side Walls"
+				[2] = {id = 2,	color = "#FFFFF0"},	-- "Decoration Arrows"
+				[3] = {id = 3,	color = "#C0C0C0"},	-- "Track Rails"
+				[4] = {id = 4,	color = "#141414"},	-- "Track Ties"
+				[5] = {id = 5,	color = "#FFFFF0"},	-- "Class Number"
+				[6] = {id = 6,	color = "#141414"},	-- "Window Band"
+			},
+		},
+	},
+	{
+		name = S("Generic - Dawn to Dusk"),
+		notes = "",
+		livery_design = {
+			livery_template_name = S("Generic - Arrows and Line"),
+			overlays = {
+				[1] = {id = 1,	color = "#FF8C00"},	-- "Side Walls"
+				[2] = {id = 2,	color = "#FF8C00"},	-- "Decoration Arrows"
+				[3] = {id = 3,	color = "#F5DEB3"},	-- "Decoration Line"
+				[4] = {id = 4,	color = "#F5DEB3"},	-- "Trim"
+				[5] = {id = 5,	color = "#FFFFF0"},	-- "Class Number"
+			},
+		},
+	},
+}
 
 -- This mod needs to register itself with the livery database in order to be
 -- allowed to add livery templates and predefined liveries. It does not need
 -- to register itself with the livery designer tool, however, since it is will
--- not be registering any wagons. 
+-- not be registering any wagons.
 advtrains_livery_database.register_mod(mod_name)
 
 -- The following is "boilerplate" code for registering the preceding livery
