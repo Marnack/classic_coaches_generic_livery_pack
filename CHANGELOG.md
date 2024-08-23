@@ -1,5 +1,8 @@
 # Changelog
 All notable changes to this project will be documented in this file.
+## [1.0.1] - 2024-08-23
+- Remove .cdb.json
+- Update CHANGELOG.md
 ## [1.0.0] - 2024-08-22
 - Add .cdb.json
 - Add two new livery templates
