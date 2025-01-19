@@ -15,15 +15,16 @@ local texture_creator = "Marnack"
 -- Define all of the livery tempalte names.  These will be used when creating
 -- livery templates for each of the wagon types.
 local livery_template_names = {
-	 [1] =	{name = S("Generic - Stripe"),					notes = "The livery features a medium width stripe.  A narrow divider stripe can be added."},
-	 [2] =	{name = S("Generic - Intercity Stripe"),		notes = "The livery features a medium width stripe with the word, 'intercity'.  The side doors are colored differently by default."},
-	 [3] =	{name = S("Generic - Edged Stripe"),			notes = "The livery features a medium width stripe.  The stripe's edges are colored differently by default."},
-	 [4] =	{name = S("Generic - Tricolor"),				notes = "The livery can have different colors for the upper and lower halves of it sides and well as a window band.  The window band can also be trimmed in a different color."},
-	 [5] =	{name = S("Generic - Double Bands and Stripe"),	notes = "This livery features color trim along the top and bottom of the sides, a window band, a wide band along the bottom half of the sides and a stripe separating the upper and lower halves of the sides."},
-	 [6] =	{name = S("Generic - Window Band and Stripe"),	notes = "This livery features independent colors for the upper and lower halves of the sides, a window band and a narrow stripe near the middle."},
-	 [7] =	{name = S("Generic - Window Stripes"),			notes = "In addition to a window band, the livery features a narrow strips above the windows and two adjacent stripes just below the windows."},
-	 [8] =	{name = S("Generic - Arrows and Rail"),			notes = "This livery features stylized arrow heads and a section of train track on the lower half of the wagon's sides"},
-	 [9] =	{name = S("Generic - Arrows and Line"),			notes = "This livery features decorative arrows and lines on the lower half of the wagon's sides"},
+	  [1] =	{name = S("Generic - Stripe"),					notes = "The livery features a medium width stripe.  A narrow divider stripe can be added."},
+	  [2] =	{name = S("Generic - Intercity Stripe"),		notes = "The livery features a medium width stripe with the word, 'intercity'.  The side doors are colored differently by default."},
+	  [3] =	{name = S("Generic - Edged Stripe"),			notes = "The livery features a medium width stripe.  The stripe's edges are colored differently by default."},
+	  [4] =	{name = S("Generic - Tricolor"),				notes = "The livery can have different colors for the upper and lower halves of it sides and well as a window band.  The window band can also be trimmed in a different color."},
+	  [5] =	{name = S("Generic - Double Bands and Stripe"),	notes = "This livery features color trim along the top and bottom of the sides, a window band, a wide band along the bottom half of the sides and a stripe separating the upper and lower halves of the sides."},
+	  [6] =	{name = S("Generic - Window Band and Stripe"),	notes = "This livery features independent colors for the upper and lower halves of the sides, a window band and a narrow stripe near the middle."},
+	  [7] =	{name = S("Generic - Window Stripes"),			notes = "In addition to a window band, the livery features a narrow strips above the windows and two adjacent stripes just below the windows."},
+	  [8] =	{name = S("Generic - Arrows and Rail"),			notes = "This livery features stylized arrow heads and a section of train track on the lower half of the wagon's sides"},
+	  [9] =	{name = S("Generic - Arrows and Line"),			notes = "This livery features decorative arrows and lines on the lower half of the wagon's sides"},
+	 [10] =	{name = S("Generic - Slanted Bands"),			notes = "This livery features slanted vertical bands left of center plus an optional thin horizontal stripe"},
 }
 
 local livery_templates = {
@@ -122,6 +123,17 @@ local livery_templates = {
 				[5] = {name = S("Class Number"),		texture = "classic_coaches_overlay_class1_class_number.png"},
 			},
 		},
+		[10] = {
+			base_texture = mod_name.."_corridor_coach_class1_010.png",
+			overlays = {
+				[1] = {name = S("Side Walls"),			texture = mod_name.."_overlay_010_class1_side_walls.png",			alpha = default_wall_alpha},
+				[2] = {name = S("Left Slanted Band"),	texture = mod_name.."_overlay_010-class1_left_band.png",			alpha = default_wall_alpha},
+				[3] = {name = S("Middle Slanted Band"),	texture = mod_name.."_overlay_010-class1_middle_band.png",			alpha = default_wall_alpha},
+				[4] = {name = S("Right Slanted Band"),	texture = mod_name.."_overlay_010-right_band.png",					alpha = default_wall_alpha},
+				[5] = {name = S("Stripe"),				texture = mod_name.."_overlay_010-stripe.png",},
+				[6] = {name = S("Class Number"),		texture = "classic_coaches_overlay_class1_class_number.png"},
+			},
+		},
 	},
 	["classic_coaches:corridor_coach_class2"] = {
 		[1] = {
@@ -216,6 +228,17 @@ local livery_templates = {
 				[3] = {name = S("Decoration Line"),		texture = mod_name.."_overlay_009_decoration_line.png",				alpha = default_wall_alpha},
 				[4] = {name = S("Trim"),				texture = mod_name.."_overlay_009_trim.png",						alpha = default_wall_alpha},
 				[5] = {name = S("Class Number"),		texture = "classic_coaches_overlay_class2_class_number.png"},
+			},
+		},
+		[10] = {
+			base_texture = mod_name.."_corridor_coach_class2_010.png",
+			overlays = {
+				[1] = {name = S("Side Walls"),			texture = mod_name.."_overlay_010_class2_side_walls.png",			alpha = default_wall_alpha},
+				[2] = {name = S("Left Slanted Band"),	texture = mod_name.."_overlay_010-class2_left_band.png",			alpha = default_wall_alpha},
+				[3] = {name = S("Middle Slanted Band"),	texture = mod_name.."_overlay_010-class2_middle_band.png",			alpha = default_wall_alpha},
+				[4] = {name = S("Right Slanted Band"),	texture = mod_name.."_overlay_010-right_band.png",					alpha = default_wall_alpha},
+				[5] = {name = S("Stripe"),				texture = mod_name.."_overlay_010-stripe.png",},
+				[6] = {name = S("Class Number"),		texture = "classic_coaches_overlay_class2_class_number.png"},
 			},
 		},
 	},
@@ -314,6 +337,17 @@ local livery_templates = {
 				[5] = {name = S("Class Number"),		texture = "classic_coaches_overlay_class1_class_number.png"},
 			},
 		},
+		[10] = {
+			base_texture = mod_name.."_open_coach_class1_010.png",
+			overlays = {
+				[1] = {name = S("Side Walls"),			texture = mod_name.."_overlay_010_class1_side_walls.png",			alpha = default_wall_alpha},
+				[2] = {name = S("Left Slanted Band"),	texture = mod_name.."_overlay_010-class1_left_band.png",			alpha = default_wall_alpha},
+				[3] = {name = S("Middle Slanted Band"),	texture = mod_name.."_overlay_010-class1_middle_band.png",			alpha = default_wall_alpha},
+				[4] = {name = S("Right Slanted Band"),	texture = mod_name.."_overlay_010-right_band.png",					alpha = default_wall_alpha},
+				[5] = {name = S("Stripe"),				texture = mod_name.."_overlay_010-stripe.png",},
+				[6] = {name = S("Class Number"),		texture = "classic_coaches_overlay_class1_class_number.png"},
+			},
+		},
 	},
 	["classic_coaches:open_coach_class2"] = {
 		[1] = {
@@ -408,6 +442,17 @@ local livery_templates = {
 				[3] = {name = S("Decoration Line"),		texture = mod_name.."_overlay_009_decoration_line.png",				alpha = default_wall_alpha},
 				[4] = {name = S("Trim"),				texture = mod_name.."_overlay_009_trim.png",						alpha = default_wall_alpha},
 				[5] = {name = S("Class Number"),		texture = "classic_coaches_overlay_class2_class_number.png"},
+			},
+		},
+		[10] = {
+			base_texture = mod_name.."_open_coach_class2_010.png",
+			overlays = {
+				[1] = {name = S("Side Walls"),			texture = mod_name.."_overlay_010_class2_side_walls.png",			alpha = default_wall_alpha},
+				[2] = {name = S("Left Slanted Band"),	texture = mod_name.."_overlay_010-class2_left_band.png",			alpha = default_wall_alpha},
+				[3] = {name = S("Middle Slanted Band"),	texture = mod_name.."_overlay_010-class2_middle_band.png",			alpha = default_wall_alpha},
+				[4] = {name = S("Right Slanted Band"),	texture = mod_name.."_overlay_010-right_band.png",					alpha = default_wall_alpha},
+				[5] = {name = S("Stripe"),				texture = mod_name.."_overlay_010-stripe.png",},
+				[6] = {name = S("Class Number"),		texture = "classic_coaches_overlay_class2_class_number.png"},
 			},
 		},
 	},
@@ -548,6 +593,51 @@ local predefined_liveries = {
 			},
 		},
 	},
+	{
+		name = S("Generic - Retro Runner"),
+		notes = "",
+		livery_design = {
+			livery_template_name = S("Generic - Slanted Bands"),
+			overlays = {
+				[1] = {id = 1,	color = "#2E8B57"},	-- "Side Walls",
+				[2] = {id = 2,	color = "#FAF0E6"},	-- "Left Slanted Band",
+				[3] = {id = 3,	color = "#2E8B57"},	-- "Middle Slanted Band",
+				[4] = {id = 4,	color = "#FAF0E6"},	-- "Right Slanted Band",
+				[5] = {id = 5,	color = "#3C9864"},	-- "Stripe",
+				[6] = {id = 6,	color = "#181818"},	-- "Class Number",
+			},
+		},
+	},
+	{
+		name = S("Generic - Moonbeams"),
+		notes = "",
+		livery_design = {
+			livery_template_name = S("Generic - Slanted Bands"),
+			overlays = {
+				[1] = {id = 1,	color = "#000080"},	-- "Side Walls",
+				[2] = {id = 2,	color = "#000090"},	-- "Left Slanted Band",
+				[3] = {id = 3,	color = "#0000A4"},	-- "Middle Slanted Band",
+				[4] = {id = 4,	color = "#0000C0"},	-- "Right Slanted Band",
+				[5] = {id = 5,	color = "#0000B0"},	-- "Stripe",
+				[6] = {id = 6,	color = "#0000FF"},	-- "Class Number",
+			},
+		},
+	},
+	{
+		name = S("Generic - Terra Tones"),
+		notes = "",
+		livery_design = {
+			livery_template_name = S("Generic - Slanted Bands"),
+			overlays = {
+--				[1] = {id = 1,	color = "#000000"},	-- "Side Walls",
+				[2] = {id = 2,	color = "#DAA520"},	-- "Left Slanted Band",
+				[3] = {id = 3,	color = "#D2691E"},	-- "Middle Slanted Band",
+				[4] = {id = 4,	color = "#D2691E"},	-- "Right Slanted Band",
+				[5] = {id = 5,	color = "#8B4513"},	-- "Stripe",
+--				[6] = {id = 6,	color = "#000000"},	-- "Class Number",
+			},
+		},
+	},
 }
 
 -- This mod needs to register itself with the livery database in order to be
@@ -597,7 +687,7 @@ for wagon_type, wagon_livery_templates in pairs(livery_templates) do
 	end
 end
 
--- Register this mod's predefined wagon liveries with the advtrains_livery_designer tool.
+-- Register this mod's predefined wagon liveries with the advtrains_livery_database.
 for _, predefined_livery in pairs(predefined_liveries) do
 	-- Each predefined livery will be defined for each wagon type.  This may not be true in the future.
 	for wagon_type, _ in pairs(livery_templates) do
