@@ -1,5 +1,9 @@
 # Changelog
 All notable changes to this project will be documented in this file.
+## [1.1.0] - 2025-01-19
+- Optimize PNGs
+- Add a new livery template
+- Update CHANGELOG.md
 ## [1.0.1] - 2024-08-23
 - Remove .cdb.json
 - Update CHANGELOG.md
