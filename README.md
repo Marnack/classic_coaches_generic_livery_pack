@@ -2,7 +2,7 @@
 This mod adds generic livery options for the wagons in the **Classic Coaches** mod.
 ![](screenshot.png)
 ## Liveries
-This livery pack provides 10 additional livery templates for each of the 4 intercity passenger wagons in the **Classic Coaches** mod. These livery templates each have multiple overlays that can be customized by players while in game to create many different livery designs.  These liveries are generic in that they do not have any language based logos or railway identifiers.  Also included are several predefined liveries that are intended to showcase some of the livery design possibilities with the included templates.
+This livery pack provides 10 additional livery templates for each of the 4 intercity passenger wagons and the bistro wagon in the **Classic Coaches** mod. These livery templates each have multiple overlays that can be customized by players while in game to create many different livery designs.  These liveries are generic in that they do not have any language based logos or railway identifiers.  Also included are several predefined liveries that are intended to showcase some of the livery design possibilities with the included templates.
 
 For mod developers, this mod is also intended to serve as an example of how to implement a livery pack with more complex livery templates such as those with multiple overlays.
 ## Licenses
