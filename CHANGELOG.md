@@ -1,5 +1,9 @@
 # Changelog
 All notable changes to this project will be documented in this file.
+## [1.3.0] - 2025-09-27
+- Correct spelling
+- Update translation files using Python script
+- Add Spanish translation
 ## [1.2.0] - 2025-03-02
 - Add liveries for new bistro coach
 ## [1.1.0] - 2025-01-19
