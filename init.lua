@@ -710,7 +710,7 @@ local predefined_liveries = {
 		},
 	},
 	{
-		name = S("Generic - Savanna Zepher"),
+		name = S("Generic - Savanna Zephyr"),
 		wagon_types = wagon_types.common_coaches,
 		notes = "",
 		livery_design = {
@@ -726,7 +726,7 @@ local predefined_liveries = {
 		},
 	},
 	{
-		name = S("Generic - Savanna Zepher"),
+		name = S("Generic - Savanna Zephyr"),
 		wagon_types = wagon_types.bistro_coaches,
 		notes = "",
 		livery_design = {
